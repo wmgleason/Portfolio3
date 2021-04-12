@@ -16,16 +16,6 @@ This is my Updated Portfolio intended to give the viewer a quick glimpse into a 
                      
    * Click on the Deployed Github Link below
    
- ## How It Works
-
-   * Once the Updated-Portfolio page loads the user will see the About page and be able to toggle the Menu in the top right of      the page by clicking on Portfolio or Contact which will take them to each according page    
-
-   * The About page will have a brief Bio
-   
-   * The Portfolio page will have pictures of projects with Deployed Links to each one
-   
-   * The Contact page will have contact information along with links to Github and LinkedIn
-   
 ## Technologies Used
 
    * HTML 
