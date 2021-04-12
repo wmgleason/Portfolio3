@@ -3,14 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <title>Wanda Gleason – Portfolio</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend&family=Titillium+Web&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel="stylesheet" href="main.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
 </head>
 <body>
+    <a name="top"></a>
     <header>
-        <div class="menu-toggler">/div>
+        <div class="menu-toggler">
             <div class="bar half start"></div>
             <div class="bar"></div>
             <div class="bar half end"></div>
@@ -21,7 +31,7 @@
                     <a href="index.html" class="nav-link">Home</a>
                 </li> 
                 <li>
-                    <a href="#about" class="nav-link">About</a>
+                    <a href="#about2" class="nav-link">About</a>
                 </li> 
                 <li>
                     <a href="#services" class="nav-link">Services</a>
@@ -45,32 +55,34 @@
     
     <section class="about" id="about">
         <div class="container">
-            <div class="profile-img">
+            <div class="profile-img" data-aos="fade-right" data-aos-delay="300">
+                <a name="about2">
                 <img src="images/profile.jpg" alt="Wanda Gleason avatar">
+                </a>
             </div>
-            <div class="about-details">
+            <div class="about-details" data-aos="fade-left" data-aos-delay="600">
                 <div class="about-heading">
                     <h1>About</h1>
-                    <h6>Myself</h6>
+                    <h6>Wanda Gleason</h6>
                 </div>
                 <p>
-                    THIS IS WHERE SOME RELEVANT TEXT WILL GO. And it will say all kinds of things, or at least a few things, but I will write this part later when I have finished setting up the site.  And it will say all kinds of things, or at least a few things, but I will write this part later when I have finished setting up the site.  And it will say all kinds of things, or at least a few things, but I will write this part later when I have finished setting up the site.  And it will say all kinds of things, or at least a few things, but I will write this part later when I have finished setting up the site. 
+                    Knowledgable in all aspects of college student support program and business management, efficient at learning and mastering new technologies, skilled in problem solving and event planning. Excellent oral and written communication skills as well as strong interpersonal, organizational and computer skills. Experienced in designing and conducting STEM workshops and classes with all ages from k-12 to college/adults. Articulate communicator, entrepreneurial, creative thinker, self-starter and enthusiastic collaborator.
                 </p>
                 <div class="social-media">
                     <ul class="nav-list">
                         <li>
-                            <a href="#" class="icon-link">
-                            <i class="fab fa-linkedin-square"></i>
+                            <a href="https://www.linkedin.com/in/wandagleason411" class="icon-link" target="_blank">
+                            <i class="fab fa-linkedin"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="#" class="icon-link">
-                            <i class="fab fa-twitter-square"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" class="icon-link">
+                            <a href="https://github.com/wmgleason" class="icon-link" target="_blank">
                             <i class="fab fa-github-square"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/intent/follow?ref_src=twsrc%5Etfw&screen_name=WandaMaGle&tw_p=followbutton" class="icon-link" target="_blank">
+                            <i class="fab fa-twitter-square"></i>
                             </a>
                         </li>
                     </ul>
@@ -85,103 +97,117 @@
                 <h6>What I can do for you</h6>
             </div>
             <div class="my-skills">
-                <div class="skill">
+                <div class="skill" data-aos="fade-in" 300 data-aos-delay="300">
                     <div class="icon-container">
                         <i class="fas fa-layer-group"></i>
                     </div>
                     <h1>Web Design</h1>
                     <p>
-                        There is going to be some more text here to promote my skills with web design. There is going to be some more text here to promote my skills with web design.
+                        I take each client through a creative process to build a website that reflects their brand, appeals to their users, generates sales and hits their own stated goals.
                     </p>
                 </div>
-                <div class="skill">
+                <div class="skill" data-aos="fade-in" 300 data-aos-delay="600">
                     <div class="icon-container">
                         <i class="fas fa-code"></i>
                     </div>
                     <h1>Web Development</h1>
                     <p>
-                        There is going to be some more text here to promote my skills with web design. There is going to be some more text here to promote my skills with web design.
+                        From the most simple, static web pages to social media platforms and apps, web development is the process of building websites and applications for the internet. Let's talk about creating your app.
                     </p>
                 </div>
-                <div class="skill">
+                <div class="skill" data-aos="fade-in" 300 data-aos-delay="900">
                     <div class="icon-container">
                         <i class="fas fa-chart-bar"></i>
                     </div>
                     <h1>Product Strategy</h1>
                     <p>
-                        There is going to be some more text here to promote my skills with web design. There is going to be some more text here to promote my skills with web design.
+                        A well thought-out strategy is crucial to the success of any website design project. You need to have a strategy in place to identify your objectives; I can help you work out a strategy to ensure the success of your next web application.
                     </p>
                 </div>
             </div>
         </div>
     </section>
     <section class="portfolio" id="portfolio">
+        <a name="portfolio"></a>
         <div class="container">
             <div class="section-heading">
                 <h1>Portfolio</h1>
                 <h6>Take a look at some of my recent projects</h6>
             </div>
+           
             <div class="portfolio-item">
-                <div class="portfolio-img has-margin-right">
-                    <img src="images/portitem1.jpg" alt="image from 1st portfolio item">
+                <div class="portfolio-img has-margin-right" data-aos="fade-right" data-aos-delay="300">
+                    <a href="https://art-stack-0.herokuapp.com/">
+                    <img src="images/artstackopen.jpg" alt="image from 1st portfolio item">
+                    </a>
                 </div>
-                <div class="portfolio-description">
-                    <h6>Web Development</h6>
-                    <h1>Not sure which project this will be yet</h1>
-                    <p>I'll put in some text here to describe the project once I decide which project is going to be shown in this div.
+                <div class="portfolio-description" data-aos="fade-left" 300 data-aos-delay="600">
+                    <h6>Online gallery for local community artists</h6>
+                    <h1>Art Stack</h1>
+                    <p>Art Stack provides an online gallery of artwork by community artists. It offers the opportunity for local artists to show their work despite pandemic-related closures, and offers the public the chance to see the extraordinary works of art being produced in our community with their safety and convenience in mind.
                     </p>
-                    <a href="#" class="cta">View Details</a>
+                    <a href="https://art-stack-0.herokuapp.com/" class="cta">Try It Out</a>
                 </div>
+            </div>
 
-            </div>
             <div class="portfolio-item">
-                <div class="portfolio-description has-margin-right">
-                    <h6>Web Design</h6>
-                    <h1>Second Project</h1>
-                    <p>I'll put in some text here to describe the project once I decide which project is going to be shown in this div.
+                <div class="portfolio-description has-margin-right" data-aos="fade-left" data-aos-delay="900">
+                    <h6>Personnel Management App</h6>
+                    <h1>Team Profile Generator</h1>
+                    <p>The Team Profile Generator is a command-line-input application run in Node. The user is prompted to input information about members of an engineering team. The application takes this data and generates an HTML file displaying that information. 
                     </p>
-                    <a href="#" class="cta">View Details</a>
+                    <a href="https://wmgleason.github.io/Team_Profile_Generator/" class="cta">View Details</a>
                 </div>
-                <div class="portfolio-img">
-                    <img src="images/portitem2.jpg" alt="image from 2nd portfolio item">
+                <a href="https://wmgleason.github.io/Team_Profile_Generator/">
+                <div class="portfolio-img" data-aos="fade-left" data-aos-delay="1200">
+                    <img src="images/TeamProfileGenerator.png" alt="image from 2nd portfolio item">
                 </div>
+            </div>
 
-            </div>
             <div class="portfolio-item">
-                <div class="portfolio-img has-margin-right">
-                    <img src="images/portitem3.jpg" alt="image from 3rd portfolio item">
+                <div class="portfolio-img has-margin-right" data-aos="fade-right" data-aos-delay="1500">
+                    <a href="https://wmgleason.github.io/E-Commerce_Back_End/">
+                    <img src="images/ecommercebackend.gif" alt="image from 3rd portfolio item">
+                    </a>
                 </div>
-                <div class="portfolio-description">
-                    <h6>Web Development</h6>
-                    <h1>Third project</h1>
-                    <p>I'll put in some text here to describe the project once I decide which project is going to be shown in this div.
+                <div class="portfolio-description" data-aos="fade-left" 300 data-aos-delay="1800">
+                    <h6>Online gallery for local community artists</h6>
+                    <h1>E-Commerce Back End</h1>
+                    <p>The E-Commerce Back Emd project is an ExpressJS scalable e-commerce application that serves APIs for a product catalog. In addition to Express.js API, this app makes use of Sequelize to interact with a MySQL database.
                     </p>
-                    <a href="#" class="cta">View Details</a>
+                    <a href="https://wmgleason.github.io/E-Commerce_Back_End/" class="cta">Take a look</a>
                 </div>
             </div>
+
         </div>
     </section>
     <section class="experience" id="experience">
+        <a name="experience"></a>
         <div class="container">
             <div class="section-heading">
                 <h1>Experience</h1>
                 <h6>Past and current positions</h6>
             </div>
-            <div class="timeline">
+            <div class="timeline" data-aos="fade-down" data-aos-delay="300"> 
                 <ul>
-                    <li class="date" data-date="2018 – Present">
+                    <li class="date" data-date="Present">
+                        <h1>Student - Full Stack Web Development</h1>
+                        <p>University of New Hampshire Full Stack Bootcamp studying the foundations of web development, full stack web applications skills, and performance. 
+                        </p>
+                    </li>
+                    <li class="date" data-date="2018 – present">
                         <h1>Consultant</h1>
-                        <p>I'll put in some text here to describe the project once I decide which project is going to be shown in this div.
+                        <p>Consulting projects include multiple contract positions such as: Commercial Banking Loan Origination System Program, Santander Bank NA; Composed project deliverables and reports, updated project plan using MS Project, managed Sharepoint site and meetings calendar, supported senior executives; FLS International English Language Schools, Boston MA; Designed and conducted multi-week robotics workshop with approximately 40 middle and high school English language learner students. Presented business negotiation tactics seminar for small business owners; and freelance student exam-focussed tutoring.
                         </p>
                     </li>
                     <li class="date" data-date="2016 – 2018">
                         <h1>STEM Mentor Program Coordinator</h1>
-                        <p>I'll put in some text here to describe the project once I decide which project is going to be shown in this div.
+                        <p>Acted as liaison between the STEM Mentor Program administration, approximately 70 community college students, and 70 STEM mentors (STEM professionals employed at over 20 companies/organizations who volunteer to mentor STEM students), with a focus on inclusion of students and mentors from backgrounds traditionally underrepresented in STEM fields. Wrote all program supporting grants and budgets, coordinated grant supporting materials for yearly program funding, resulting in repeated renewal of Sanofi Foundation grant with a 62% increase in program funding for academic years 2016-2018. Co-Principal Investigator.
                         </p>
                     </li>
-                    <li class="date" data-date="1995 – 2015">
-                        <h1>Owner, electronic microcontroller business</h1>
-                        <p>I'll put in some text here to describe the project once I decide which project is going to be shown in this div.
+                    <li class="date" data-date="2000 – 2015">
+                        <h1>President/Owner – Electronic Microcontrollers Business</h1>
+                        <p>Generated yearly gross income of sole proprietorship, online electronic microcontroller business of up to $320,000. Devised and monitored budgets and administered all financial matters (budgets, accounts payable and receivable, sales tax, etc.). Managed all areas of sole proprietorship/online robotics business: strategic planning, marketing, manufacturing, inventory, technical support, curriculum integration, customer support and finances.
                         </p>
                     </li>
                 </ul>
@@ -189,12 +215,13 @@
         </div>
     </section>
     <section class="contact" id="contact">
+        <a name="contact"></a>
         <div class="container">
             <div class="section-heading">
                 <h1>Contact</h1>
                 <h6>Let's work together</h6>
             </div>
-            <form action="">
+            <form action="" data-aos="fade-up" data-aos-delay="300">
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name" placeholder="Enter your name here..." required>
                 <label for="email">Email:</label>
@@ -213,12 +240,14 @@
     </section>
     <footer class="copyright">
         <div class="up" id="up">
-            <i class="fas fa-chevron-up"></i>
+            <a href="#top">
+                <i class="fas fa-chevron-up"></i>
+            </a>
         </div>
         <p>&copy; 2021 Wanda Gleason</p>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <!-- Animate on scroll from github.com/michalsnik/aos -->
+    <script src="main.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init();
