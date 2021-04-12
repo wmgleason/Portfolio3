@@ -6,7 +6,7 @@
 }
 html{
     font-size: 10px;
-    font-family: "Roboto", sans-serif;
+    font-family: 'Quicksand', sans-serif;
     color: #eee;
 }
 body{
@@ -35,7 +35,7 @@ img{
     position: relative;
 }
 .section {
-    padding: 6rem;
+    padding: 6rem 0;
 }
 .section-heading {
     text-align: center;
@@ -48,6 +48,7 @@ img{
     font-weight: 300;
     position: relative;
     margin-bottom: 1rem;
+    margin-top: 5rem;
 }
 .section-heading h1::before,
 .section-heading h1::after {
@@ -96,17 +97,24 @@ header{
 }
 .nav-list{
     list-style: none;
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+.top-nav a:hover {
+    background-color: #fd57bf;
+    color: #ffe838;
+  }
+  .top-nav .icon {
+    display: none;
+  }
 li{
     margin: 0 2rem;
 }
 .nav-link{
-    font-family: "The Historia Demo", sans-serif;
+    font-family: 'Titillium Web', sans-serif;
     font-size: 5rem;
     padding: 1rem;
 }
@@ -175,7 +183,7 @@ li{
 /* the padding here keeps the text from being cropped off */
 .landing-text h1{
     font-size: 20rem;
-    font-family: "The Historia Demo", sans-serif;
+    font-family: 'Titillium Web', sans-serif;
     background: linear-gradient(to top, #ffe838, #fd57bf);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -191,6 +199,7 @@ li{
     display: flex;
     align-items: center;
     justify-content: center;
+    grid-gap: 2.5rem;
 }
 .about-heading {
     text-align: center;
@@ -208,11 +217,12 @@ li{
 }
 .profile-img {
     flex: 1;
-    margin-right: 5rem;
+}
+.portfolio-description {
+    flex: 1;
 }
 .about-details {
     flex: 1;
-
 }
 .social-media {
     margin-top: 5rem;
@@ -221,7 +231,7 @@ li{
     font-size: 5rem;
     transition: color 650ms;
 }
-.fa-linkedin-square:hover{
+.fa-linkedin:hover{
     color: #0e76a8;
 }
 .fa-github-square:hover{
@@ -271,7 +281,8 @@ li{
     align-items: center;
     justify-content: center;
     margin-bottom: 5rem;
-    margin-top:
+    margin-top: 5rem;
+    grid-gap: 2.5rem;
 }
 .portfolio-item:last-child {
     margin-bottom: 0;
@@ -309,7 +320,7 @@ li{
     border-left: 4px solid #ffe838;
     border-radius: .8rem;
     background-color: rgba(0, 0, 0, 0.05);
-    margin: - auto;
+    margin: auto;
     position: relative;
     padding: 5rem;
     list-style: none;
@@ -414,11 +425,13 @@ input[type-="submit"]:hover {
     border-radius: 100%;
     display: flex;
     animation: pulse 2s infinite;
+    cursor: pointer;
 }
 .up i {
-    color: #16162d;
+    color: #2e074e;
     font-size: 2rem;
     margin: auto;
+    position: relative;
 }
 .copyright p {
     font-size: 1.4rem;
@@ -433,5 +446,107 @@ input[type-="submit"]:hover {
     }
     100%{
         box-shadow: 0 0 0 0 rbga(253, 87, 191, 0);
+    }
+}
+@media screen and (max-width: 768px) {
+    body {
+        background: url("images/sitebg.jpg") no-repeat center fixed;
+        background-size: cover;
+}
+.landing-text h1 {
+    font-size: 15rem;
+}
+.landing-text h6 {
+    font-size: 1.7rem;
+}
+.nav-list {
+    flex-direction: column;
+}
+li {
+    margin: 2rem 0;
+}
+.nav-link {
+    font-size: 4.5rem;
+}
+.about-heading h1 {
+    font-size: 8rem;
+}
+.section-heading h1 {
+    font-size: 3rem;
+}
+.about-details .nav-list {
+    flex-direction: initial;
+}
+.about-details li {
+    margin: 0 2rem;
+}
+.icon-container {
+    width: 7rem;
+    height: 7rem;
+}
+.icon-container i {
+    font-size: 4rem;
+}
+.timeline ul {
+    margin: 0 0 0 auto;
+}
+.timeline .date::before {
+    left: -20rem;
+    
+}
+.timeline .date::after {
+    left: -5.9rem;
+}
+}
+/* making things stack etc with different screen size */
+@media screen and (max-width: 600px) {
+    .top-nav .icon {
+        display: none; 
+    }
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+    .menu-toggler{
+        top: 2rem;
+        right: 2rem;
+    }
+    .landing-text h1 {
+        font-size: 8rem;
+    }
+    .landing-text h6 {
+        font-size: 1.4rem;
+    }
+    .nav-link {
+        font-size: 3.5rem;
+    }
+    .about .container {
+        flex-direction: column;
+    }
+    .profile-img {
+        margin: 0 0 7rem 0;
+    }
+    .portfolio-item {
+        flex-direction: column;
+    }
+    .portfolio-img {
+    margin: 0 0  2rem 0;
+    order: 1;
+    }
+    .portfolio-description {
+        margin: 0;
+        order: 2;
+    }
+    .timline p {
+        font-size: 1.6rem;
+    }
+    .timeline .date::before {
+        font-size: 1.4rem;
+    }
+    form {
+        width: 100%;
+    }
+    .up {
+        right: 2rem;
     }
 }
