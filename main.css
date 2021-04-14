@@ -184,7 +184,7 @@ li{
 .landing-text h1{
     font-size: 20rem;
     font-family: 'Raleway', sans-serif;
-    background: linear-gradient(to top, #ffe838, #fd57bf);
+    background: linear-gradient(to top, #38ffbd, #5799fd);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     padding: 1rem;
@@ -264,8 +264,8 @@ li{
 .icon-container {
     width: 10rem;
     height: 10rem;
-    border: 3px solid #ffe838;
-    background-color: #fd57bf;
+    border: 3px solid #38ffbd;
+    background-color: #5799fd;
     margin-bottom: 2rem;
     display: flex;
     transform: rotate(45deg);
@@ -317,7 +317,7 @@ li{
     color: #2f67cd;
 }
 .timeline ul {
-    border-left: 4px solid #ffe838;
+    border-left: 4px solid #5799fd;
     border-radius: .8rem;
     background-color: rgba(0, 0, 0, 0.05);
     margin: auto;
@@ -364,7 +364,7 @@ li{
 }
 .timeline .date::after {
     content: '';
-    box-shadow: 0 0 0 4px #fd57bf;
+    box-shadow: 0 0 0 4px #38ffbd;
     border-radius: 100%;
     left: -8rem;
     height: 1.5rem;
@@ -392,11 +392,11 @@ textarea {
     padding: 1rem;
     margin-bottom: 5px;
     border: none;
-    outline-color: #fd57bf;
+    outline-color: #5799fd;
 }
 input [type="submit"] {
     width: initial;
-    background-color: #fd57bf;
+    background-color: #5799fd;
     color: #eee;
     padding: 1rem 2rem;
     border-radius: .8rem;
