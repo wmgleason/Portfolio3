@@ -393,12 +393,14 @@ textarea {
     margin-bottom: 5px;
     border: none;
     outline-color: #5799fd;
+    border-radius: 3px;
 }
 input [type="submit"] {
     width: initial;
     background-color: #5799fd;
     color: #eee;
     padding: 1rem 2rem;
+    border: #38ffbd 3px;
     border-radius: .8rem;
     cursor: pointer;
     transition: background-color 650ms;
@@ -421,7 +423,7 @@ input[type-="submit"]:hover {
     width: 5rem;
     background-color: #eee;
     top: -2.5rem;
-    right: 5rem;
+    right: 8rem;
     border-radius: 100%;
     display: flex;
     animation: pulse 2s infinite;
@@ -429,7 +431,7 @@ input[type-="submit"]:hover {
 }
 .up i {
     color: #2e074e;
-    font-size: 2rem;
+    font-size: 5rem;
     margin: auto;
     position: relative;
 }
@@ -547,6 +549,6 @@ li {
         width: 100%;
     }
     .up {
-        right: 2rem;
+        right: 6rem;
     }
 }
